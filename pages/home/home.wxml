@@ -1,0 +1,48 @@
+<!--pages/home/home.wxml-->
+<view class="header">
+  <view class="header-title">
+    <text>华龙苑北里</text>
+    <icon class="iconfont icon-jiantou"></icon>
+    <icon class="iconfont icon-saomiao"></icon>
+  </view>
+  <view class="header-search">
+    <icon class="iconfont icon-iconfontzhizuobiaozhun22"></icon>
+    <input placeholder='干红' placeholder-style="font-size:10rpx" class="search"></input>
+  </view>
+</view>
+<view class="tab">
+  <scroll-view scroll-x="true" scroll-with-animation="true">
+    <view>热卖</view>
+    <view>热卖</view>
+    <view>热卖</view>
+    <view>热卖</view>
+    <view>热卖</view>
+    <view>热卖</view>
+    <view>热卖</view>
+    <view>优惠</view>
+  </scroll-view>
+  <view class='line'></view>
+</view>
+<view class="carousel">
+  <swiper circular="true" indicator-dots="true" indicator-color="rgba(210, 56, 25, .7)" indicator-active-color="rgba(99, 21, 5,1)">
+    <swiper-item><image src="../../image/318545.jpg"  mode='widthFix'></image></swiper-item>
+    <swiper-item><image src="../../image/319833.jpg"  mode='widthFix'></image></swiper-item>
+    <swiper-item><image src="../../image/322553.jpg"  mode='widthFix'></image></swiper-item>
+  </swiper>
+  <view class="sort-list" class="{{isShowMore?'sort-list active':'sort-list'}}">
+   <view><image src='../../image/tablist/1.jpg' mode='widthFix'></image><text>热卖</text></view>
+   <view><image src='../../image/tablist/2.jpg' mode='widthFix'></image><text>热卖</text></view>
+   <view><image src='../../image/tablist/3.jpg' mode='widthFix'></image><text>热卖</text></view>
+   <view><image src='../../image/tablist/4.jpg' mode='widthFix'></image><text>热卖</text></view>
+   <view><image src='../../image/tablist/5.jpg' mode='widthFix'></image><text>热卖</text></view>
+   <view><image src='../../image/tablist/6.jpg' mode='widthFix'></image><text>热卖</text></view>
+   <view><image src='../../image/tablist/7.jpg' mode='widthFix'></image><text>热卖</text></view>
+   <view wx:if="{{isShowMore}}"><image src='../../image/tablist/5.jpg' mode='widthFix'></image><text>热卖</text></view>
+   <view wx:else class="more" bindtap='changeShowStatus'><image src='../../image/tablist/1.jpg' mode='widthFix'></image><text>更多</text></view>
+   <view><image src='../../image/tablist/9.jpg' mode='widthFix'></image><text>热卖</text></view>
+   <view><image src='../../image/tablist/9.jpg' mode='widthFix'></image><text>热卖</text></view>
+  </view>
+</view>
+<view>
+  <nav-bar></nav-bar>
+</view>
