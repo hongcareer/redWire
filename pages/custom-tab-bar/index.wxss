@@ -1,3 +1,4 @@
+@import '../../assess/index';
 .tab-bar {
   position: fixed;
   bottom: 0;
@@ -28,11 +29,10 @@
   flex-direction: column;
 }
 
-.tab-bar-item cover-image {
-  width: 27px;
-  height: 27px;
+.tab-bar-item icon {
+ font-size: 45rpx;
 }
 
-.tab-bar-item cover-view {
-  font-size: 10px;
+.tab-bar-item text {
+  font-size: 26rpx;
 }

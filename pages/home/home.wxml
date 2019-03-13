@@ -43,6 +43,18 @@
    <view><image src='../../image/tablist/9.jpg' mode='widthFix'></image><text>热卖</text></view>
   </view>
 </view>
+<view class="main">
+  <view class="new-person">
+      <view class="title">
+          <text class="new-area">新人专区</text>
+          <view class="new-more">
+              <text >查看更多</text>
+              <icon class="iconfont icon-saomiao"></icon>
+          </view>
+      </view>
+      <view class="thing"></view>
+  </view>
+</view>
 <view>
   <nav-bar></nav-bar>
 </view>

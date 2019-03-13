@@ -1,121 +1,10 @@
 /* pages/home/home.wxss */
-.header{
-  padding: 0rpx 20rpx;
-}
-.header .header-title .icon-jiantou{
-  margin-left: 10rpx;
-}
-.header .header-title .icon-saomiao{
-  float: right;
-  font-size: 50rpx;
-}
-.header-search{
-  position: relative;
-  margin-top:30rpx;
-}
-.header-search .icon-iconfontzhizuobiaozhun22{
-position: absolute;
-top: 50%;
-left: 41%;
-transform: translateX(-50%) translateY(-50%);
-font-size: 40rpx;
-}
-.search{
-  height:67rpx;
-  width: 100%;
-  background-color: 	rgba(237, 237, 243, 0.993);
-  color: #ccc; 
-  border-radius: 30rpx;
-  text-align: center;
-}
-.tab{
-  padding: 0rpx 20rpx;
-  border-bottom: 1rpx solid rgba(237, 237, 243, 0.993);
-  position: relative;
-}
-.tab scroll-view{
-  width: 100%;
-  height: 90rpx;
-  line-height: 92rpx;
-  overflow:hidden;
-  white-space:nowrap
-}
-.tab scroll-view view{
-  display: inline-block;
-  width: 145rpx;
-  font-size: 30rpx;
-}
-.tab .line{
-  position:absolute ;
-  left: 45rpx;
-  bottom:0rpx;
-  width: 35rpx;
-  height:12rpx;
-  background-color: #d23819;
-  border-radius: 6rpx;
-}
-.carousel{
-  padding: 0rpx 20rpx;
-}
-.carousel swiper{
-  height:400rpx;
-}
-.carousel swiper-item image{
-  width: 100%;
-  border-radius: 24rpx;
-}
-.sort-list{
-  height:360rpx;
-  margin-top:20rpx;
-  overflow:hidden;
-  position: relative;
-}
-.sort-list.active{
-  height:auto;
-}
-.sort-list view{
-  float: left;
-  margin: 15rpx 10rpx;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.sort-list view image{
-  width: 160rpx;
-  border-radius:45rpx;
-}
-.sort-list view text{
-  font-size:33rpx;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @font-face {
-  font-family: 'iconfont';  /* project id 1071170 */
+  font-family: 'iconfont';
+  /* project id 1071170 */
   src: url('//at.alicdn.com/t/font_1071170_qzu24m71wdt.eot');
-  src: url('//at.alicdn.com/t/font_1071170_qzu24m71wdt.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_1071170_qzu24m71wdt.woff2') format('woff2'),
-  url('//at.alicdn.com/t/font_1071170_qzu24m71wdt.woff') format('woff'),
-  url('//at.alicdn.com/t/font_1071170_qzu24m71wdt.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_1071170_qzu24m71wdt.svg#iconfont') format('svg');
+  src: url('//at.alicdn.com/t/font_1071170_qzu24m71wdt.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_1071170_qzu24m71wdt.woff2') format('woff2'), url('//at.alicdn.com/t/font_1071170_qzu24m71wdt.woff') format('woff'), url('//at.alicdn.com/t/font_1071170_qzu24m71wdt.ttf') format('truetype'), url('//at.alicdn.com/t/font_1071170_qzu24m71wdt.svg#iconfont') format('svg');
 }
-
 .iconfont {
   font-family: "iconfont" !important;
   font-size: 16px;
@@ -123,35 +12,146 @@ font-size: 40rpx;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 .icon-jiantou:before {
   content: "\e60c";
 }
-
 .icon-shouye:before {
   content: "\e6a5";
 }
-
 .icon-huiyuan:before {
   content: "\e654";
 }
-
 .icon-iconfontzhizuobiaozhun22:before {
   content: "\e615";
 }
-
 .icon-saomiao:before {
   content: "\e60e";
 }
-
 .icon-geren:before {
   content: "\e670";
 }
-
 .icon-fenlei:before {
   content: "\e603";
 }
-
 .icon-gouwuche:before {
   content: "\e613";
+}
+page {
+  background-color: #e4e2e1;
+}
+.header {
+  padding: 0rpx 20rpx;
+  background-color: white;
+}
+.header .header-title .icon-jiantou {
+  margin-left: 10rpx;
+}
+.header .header-title .icon-saomiao {
+  float: right;
+  font-size: 50rpx;
+}
+.header-search {
+  position: relative;
+  margin-top: 30rpx;
+}
+.header-search .icon-iconfontzhizuobiaozhun22 {
+  position: absolute;
+  top: 43%;
+  left: 41%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 40rpx;
+}
+.search {
+  height: 67rpx;
+  width: 100%;
+  background-color: rgba(237, 237, 243, 0.993);
+  color: #ccc;
+  border-radius: 30rpx;
+  text-align: center;
+}
+.tab {
+  padding: 0rpx 20rpx;
+  border-bottom: 1rpx solid rgba(237, 237, 243, 0.993);
+  position: relative;
+  background-color: white;
+}
+.tab scroll-view {
+  width: 100%;
+  height: 90rpx;
+  line-height: 92rpx;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.tab scroll-view view {
+  display: inline-block;
+  width: 145rpx;
+  font-size: 30rpx;
+}
+.tab .line {
+  position: absolute ;
+  left: 45rpx;
+  bottom: 0rpx;
+  width: 35rpx;
+  height: 12rpx;
+  background-color: #d23819;
+  border-radius: 6rpx;
+}
+.carousel {
+  padding: 0rpx 20rpx;
+  background-color: white;
+}
+.carousel swiper {
+  height: 400rpx;
+}
+.carousel swiper-item image {
+  width: 100%;
+  border-radius: 24rpx;
+}
+.main {
+  margin-top: 20rpx;
+}
+.main .new-person {
+  height: 470rpx;
+  width: 100%;
+  background-color: white;
+}
+.main .new-person .title {
+  height: 100rpx;
+  line-height: 100rpx;
+  padding: 0 30rpx;
+}
+.main .new-person .title .new-area {
+  float: left;
+  font-size: 30rpx;
+  font-weight: 700;
+}
+.main .new-person .title .new-more {
+  float: right;
+  font-size: 25rpx;
+}
+.main .new-person .title .new-more icon {
+  font-size: 25rpx;
+}
+.sort-list {
+  height: 360rpx;
+  margin-top: 20rpx;
+  overflow: hidden;
+  position: relative;
+}
+.sort-list.active {
+  height: auto;
+}
+.sort-list view {
+  float: left;
+  margin: 15rpx 8rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sort-list view image {
+  width: 160rpx;
+  border-radius: 45rpx;
+}
+.sort-list view text {
+  font-size: 33rpx;
 }

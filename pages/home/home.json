@@ -1,3 +1,3 @@
 {
-  "usingComponents": {"nav-bar":"../../custom-tab-bar/index"}
+  "usingComponents": {"nav-bar":"../custom-tab-bar/index"}
 }
