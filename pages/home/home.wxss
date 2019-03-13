@@ -109,6 +109,7 @@ page {
 }
 .main {
   margin-top: 20rpx;
+  margin-bottom: 95rpx;
 }
 .main .new-person {
   height: 470rpx;
@@ -131,6 +132,32 @@ page {
 }
 .main .new-person .title .new-more icon {
   font-size: 25rpx;
+}
+.main .new-person .thing {
+  height: 345rpx;
+  width: 100%;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+}
+.main .new-person .thing scroll-view {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.main .new-person .thing .per-thing {
+  height: 345rpx;
+  width: 220rpx;
+  margin-right: 10rpx;
+  background-color: #d23819;
+  display: inline-block;
+  border-radius: 8rpx;
+}
+.main .new-person .thing .per-thing image {
+  width: 180rpx;
+  height: 180rpx;
+}
+.main .new-person .thing .per-thing:last-child {
+  margin-right: 0rpx;
 }
 .sort-list {
   height: 360rpx;

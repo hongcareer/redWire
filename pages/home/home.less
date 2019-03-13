@@ -71,6 +71,7 @@ page {background-color: #e4e2e1}
 }
 .main{
   margin-top: 20rpx;
+  margin-bottom: 95rpx;
   .new-person{
     height: 470rpx;
     width: 100%;
@@ -89,6 +90,32 @@ page {background-color: #e4e2e1}
         font-size: 25rpx;
         icon{
           font-size: 25rpx;
+        }
+      }
+    }
+    .thing{
+      height: 345rpx;
+      width: 100%;
+      padding: 0 30rpx;
+      box-sizing: border-box;
+      scroll-view{
+        width: 100%;
+        overflow:hidden;
+        white-space:nowrap;
+      }
+      .per-thing{
+        height: 345rpx;
+        width: 220rpx;
+        margin-right: 10rpx;
+        background-color: #d23819;
+        display:inline-block;
+        border-radius:8rpx;
+        image{
+          width: 180rpx;
+          height: 180rpx;
+        }
+        &:last-child{
+          margin-right: 0rpx;
         }
       }
     }

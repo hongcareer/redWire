@@ -52,7 +52,20 @@
               <icon class="iconfont icon-saomiao"></icon>
           </view>
       </view>
-      <view class="thing"></view>
+      <view class="thing">
+          <scroll-view scroll-x="true" scroll-with-animation="true">
+            <view class="per-thing" wx:for="{{newNumber}}">
+                <image src="../../image/tablist/7.jpg"></image>
+                <text>【新人专享】泰国龙眼巴拉巴拉巴拉巴拉</text>
+                <view>
+                    <view><text>￥7.9</text><text>￥9.9</text></view>
+                </view>
+            </view>
+          <view class="per-thing">
+
+          </view>
+          </scroll-view>
+      </view>
   </view>
 </view>
 <view>

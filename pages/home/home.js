@@ -2,6 +2,7 @@
 Page({
   data: {
     isShowMore:false,
+    newNumber:5
   },
   onLoad: function (options) {
     wx.request({
