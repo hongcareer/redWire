@@ -152,10 +152,6 @@ page {
   display: inline-block;
   border-radius: 8rpx;
 }
-.main .new-person .thing .per-thing image {
-  width: 180rpx;
-  height: 180rpx;
-}
 .main .new-person .thing .per-thing:last-child {
   margin-right: 0rpx;
 }

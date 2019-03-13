@@ -54,16 +54,15 @@
       </view>
       <view class="thing">
           <scroll-view scroll-x="true" scroll-with-animation="true">
-            <view class="per-thing" wx:for="{{newNumber}}">
-                <image src="../../image/tablist/7.jpg"></image>
-                <text>【新人专享】泰国龙眼巴拉巴拉巴拉巴拉</text>
-                <view>
-                    <view><text>￥7.9</text><text>￥9.9</text></view>
+            <block wx:for="{{newNumber}}">
+                <view class="per-thing">
+                    <text>【新人专享】泰国龙眼巴拉巴拉巴拉巴拉</text>
+                    <view>
+                        <view><text>￥7.9</text><text>￥9.9</text></view>
+                        <icon class="iconfont icon-gouwuche"></icon>
+                    </view>
                 </view>
-            </view>
-          <view class="per-thing">
-
-          </view>
+            </block>
           </scroll-view>
       </view>
   </view>
